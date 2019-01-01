@@ -15,12 +15,14 @@ const athleteData = [
 
 
 let  results = athleteData.filter( value => {
-    let incomeStr = value.income.toString() 
-    return incomeStr.length > 7
+    // let incomeStr = value.income.toString() 
+    // return incomeStr.length > 7
+
+    return value.income > 9999999
 })
 
 
-const results = 'Replace this message with your code!';
+// const results = 'Replace this message with your code!';
 
 console.log(results);
 

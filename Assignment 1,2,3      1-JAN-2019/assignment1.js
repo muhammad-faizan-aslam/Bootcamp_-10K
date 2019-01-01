@@ -15,9 +15,14 @@ const athleteData = [
 ];
 
 const athleteIncomeStrings  = athleteData.map( value =>{
-    return `${value.athlete} in ${value.team} earned ${value.income} euros`
+    return `<li>${value.athlete} in ${value.team} earned ${value.income} euros.</li>`
 })
 
-const athleteIncomeStrings = 'Replace this message with your code!';
+
+const Ul = document.querySelector('#ul') ;
+
+Ul.innerHTML = athleteIncomeStrings ;
+
+// const athleteIncomeStrings = 'Replace this message with your code!';
 
 console.log(athleteIncomeStrings);

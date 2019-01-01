@@ -14,10 +14,10 @@ const athleteData = [
 ];
 
 
-var filterData = athleteData.filter( value => { return value.income > 10000000 } )
+const filterData = athleteData.filter( value => { return value.income > 10000000 } )
 
 let popular = filterData.map( value => {  return `${value.athlete} is a great football player` } );
 
-const popular = 'Replace this message with your code!';
+// const popular = 'Replace this message with your code!';
 
 console.log(popular);
