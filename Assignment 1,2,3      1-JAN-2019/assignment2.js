@@ -15,9 +15,6 @@ const athleteData = [
 
 
 let  results = athleteData.filter( value => {
-    // let incomeStr = value.income.toString() 
-    // return incomeStr.length > 7
-
     return value.income > 9999999
 })
 
